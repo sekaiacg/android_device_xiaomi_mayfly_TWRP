@@ -14,6 +14,9 @@
 # limitations under the License.
 #
 
+# Configure Virtual A/B
+$(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota.mk)
+
 PRODUCT_PACKAGES += \
     bootctrl.xiaomi_sm8475.recovery \
     android.hardware.boot@1.2-impl-qti.recovery \
