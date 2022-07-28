@@ -34,8 +34,7 @@ $(call inherit-product, vendor/twrp/config/common.mk)
 
 PRODUCT_PACKAGES += \
     bootctrl.xiaomi_sm8475.recovery \
-    android.hardware.boot@1.2-impl-qti.recovery \
-    fastbootd
+    android.hardware.boot@1.2-impl-qti.recovery
 
 # SHIPPING API
 PRODUCT_SHIPPING_API_LEVEL := 31
