@@ -53,3 +53,4 @@ PRODUCT_EXTRA_RECOVERY_KEYS += \
 
 TWRP_REQUIRED_MODULES += \
     miui_prebuilt \
+    magisk_prebuilt \
