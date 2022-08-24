@@ -182,4 +182,5 @@ PLATFORM_VERSION_LAST_STABLE := 12
 TW_HAS_EDL_MODE := false
 TW_CUSTOM_CPU_TEMP_PATH := "/sys/class/thermal/thermal_zone50/temp"
 TW_BATTERY_SYSFS_WAIT_SECONDS := 5
+TW_BACKUP_EXCLUSIONS := /data/fonts
 TW_AB_REC := true
