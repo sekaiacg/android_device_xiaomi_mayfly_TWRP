@@ -86,6 +86,10 @@ void vendor_load_properties() {
 		model_property_override("unicorn", "unicorn", "Xiaomi 12S Pro");
 	} else if (sku == "thor") {
 		model_property_override("thor", "thor", "Xiaomi 12S Ultra");
+	} else if (sku == "diting") {
+		model_property_override("diting", "diting", "Redmi K50 Ultra");
+	} else if (sku == "ditingp") {
+		model_property_override("diting", "ditingp", "Xiaomi 12T Pro");
 	} else {
 		model_property_override("unknow", "unknow", "unknow name");
 	}
