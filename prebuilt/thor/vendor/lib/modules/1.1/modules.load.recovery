@@ -164,10 +164,8 @@ qti_battery_debug.ko
 charger-ulog-glink.ko
 altmode-glink.ko
 pmic-pon-log.ko
-spss_utils.ko
 msm_performance.ko
 qpnp-pbs.ko
-spcom.ko
 cdsprm.ko
 fsa4480-i2c.ko
 msm_show_epoch.ko
@@ -289,13 +287,11 @@ qcom_pil_info.ko
 rproc_qcom_common.ko
 qcom_q6v5.ko
 qcom_q6v5_pas.ko
-qcom_spss.ko
 qcom_esoc.ko
 qcom_sysmon.ko
 zisp_mcu.ko
 qcom_glink.ko
 qcom_glink_smem.ko
-qcom_glink_spss.ko
 qcom_smd.ko
 virtio_rpmsg_bus.ko
 gh_irq_lend.ko
