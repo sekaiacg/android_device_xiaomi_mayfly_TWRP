@@ -14,7 +14,6 @@ qcom-cpufreq-hw.ko
 sched-walt.ko
 thermal_pause.ko
 cpu_hotplug.ko
-cfg80211.ko
 clk-dummy.ko
 clk-qcom.ko
 cmd-db.ko
@@ -39,7 +38,6 @@ icc-debug.ko
 iommu-logger.ko
 kryo_arm64_edac.ko
 llcc-qcom.ko
-mac80211.ko
 mem_buf_dev.ko
 mem_buf.ko
 mem-hooks.ko
@@ -163,10 +161,8 @@ qti_battery_debug.ko
 charger-ulog-glink.ko
 altmode-glink.ko
 pmic-pon-log.ko
-spss_utils.ko
 msm_performance.ko
 qpnp-pbs.ko
-spcom.ko
 cdsprm.ko
 fsa4480-i2c.ko
 msm_show_epoch.ko
@@ -283,12 +279,10 @@ qcom_pil_info.ko
 rproc_qcom_common.ko
 qcom_q6v5.ko
 qcom_q6v5_pas.ko
-qcom_spss.ko
 qcom_esoc.ko
 qcom_sysmon.ko
 qcom_glink.ko
 qcom_glink_smem.ko
-qcom_glink_spss.ko
 qcom_smd.ko
 gh_irq_lend.ko
 gh_mem_notifier.ko
