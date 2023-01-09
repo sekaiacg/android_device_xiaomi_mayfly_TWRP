@@ -30,7 +30,7 @@ PRODUCT_MODEL := Xiaomi 12S
 PRODUCT_MANUFACTURER := Xiaomi
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := ${PRODUCT_RELEASE_NAME}
+TARGET_OTA_ASSERT_DEVICE := $(PRODUCT_RELEASE_NAME)
 
 # Kernel modules
 TW_LOAD_VENDOR_MODULES := "adsp_loader_dlkm.ko qti_battery_charge.ko fts_touch_spi.ko"
