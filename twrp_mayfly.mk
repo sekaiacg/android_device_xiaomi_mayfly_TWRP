@@ -39,7 +39,6 @@ TW_LOAD_VENDOR_MODULES := "adsp_loader_dlkm.ko qti_battery_charge.ko fts_touch_s
 TW_SUPPORT_INPUT_AIDL_HAPTICS := true
 TW_SUPPORT_INPUT_AIDL_HAPTICS_FQNAME := "IVibrator/vibratorfeature"
 TW_SUPPORT_INPUT_AIDL_HAPTICS_FIX_OFF := true
-TW_FIX_XIAOMI_FORMATDATA_CAUSED_VIBRATION := true
 
 # Theme
 TW_STATUS_ICONS_ALIGN := center
