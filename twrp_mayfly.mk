@@ -33,7 +33,7 @@ PRODUCT_MANUFACTURER := Xiaomi
 TARGET_OTA_ASSERT_DEVICE := $(PRODUCT_RELEASE_NAME)
 
 # Kernel modules
-TW_LOAD_VENDOR_MODULES := "adsp_loader_dlkm.ko qti_battery_charge.ko fts_touch_spi.ko"
+TW_LOAD_VENDOR_MODULES := "adsp_loader_dlkm.ko fts_touch_spi.ko"
 
 # Haptic
 TW_SUPPORT_INPUT_AIDL_HAPTICS := true
