@@ -196,6 +196,7 @@ zram.ko
 hdcp_qseecom.ko
 qseecom-mod.ko
 perf_helper.ko
+wl2866d.ko
 qcom-i2c-pmic.ko
 nfc_i2c.ko
 sg.ko
