@@ -4,12 +4,12 @@ service touch_report /vendor/bin/touch_report
     group root system uhid input
     capabilities SYS_NICE
     ioprio rt 4
-    disable
+    disabled
     seclabel u:r:recovery:s0
 
 service touchsensor /vendor/bin/touchsensor
     class hal
     user root
     group root system uhid input
-    disable
+    disabled
     seclabel u:r:recovery:s0
