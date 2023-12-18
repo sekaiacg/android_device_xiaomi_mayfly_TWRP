@@ -52,8 +52,10 @@
         <version>2.7</version>
         <interface>
             <name>ICameraProvider</name>
+            <instance>external/0</instance>
             <instance>legacy/1</instance>
         </interface>
+        <fqname>@2.7::ICameraProvider/external/0</fqname>
         <fqname>@2.7::ICameraProvider/legacy/1</fqname>
     </hal>
     <hal format="hidl">
@@ -71,16 +73,6 @@
             <instance>default</instance>
         </interface>
         <fqname>@1.0::IGatekeeper/default</fqname>
-    </hal>
-    <hal format="hidl">
-        <name>android.hardware.ir</name>
-        <transport>hwbinder</transport>
-        <version>1.0</version>
-        <interface>
-            <name>IConsumerIr</name>
-            <instance>default</instance>
-        </interface>
-        <fqname>@1.0::IConsumerIr/default</fqname>
     </hal>
     <hal format="hidl">
         <name>android.hardware.keymaster</name>
@@ -101,16 +93,6 @@
         </interface>
         <fqname>@1.0::IOmx/default</fqname>
         <fqname>@1.0::IOmxStore/default</fqname>
-    </hal>
-    <hal format="hidl">
-        <name>android.hardware.nfc</name>
-        <transport>hwbinder</transport>
-        <version>1.2</version>
-        <interface>
-            <name>INfc</name>
-            <instance>default</instance>
-        </interface>
-        <fqname>@1.2::INfc/default</fqname>
     </hal>
     <hal format="hidl">
         <name>android.hardware.radio.config</name>
@@ -173,16 +155,6 @@
         <fqname>@2.3::IUceService/com.qualcomm.qti.uceservice</fqname>
     </hal>
     <hal format="hidl">
-        <name>vendor.nxp.hardware.nfc</name>
-        <transport>hwbinder</transport>
-        <version>2.0</version>
-        <interface>
-            <name>INqNfc</name>
-            <instance>default</instance>
-        </interface>
-        <fqname>@2.0::INqNfc/default</fqname>
-    </hal>
-    <hal format="hidl">
         <name>vendor.qti.data.factory</name>
         <transport>hwbinder</transport>
         <version>2.5</version>
@@ -191,16 +163,6 @@
             <instance>default</instance>
         </interface>
         <fqname>@2.5::IFactory/default</fqname>
-    </hal>
-    <hal format="hidl">
-        <name>vendor.qti.esepowermanager</name>
-        <transport>hwbinder</transport>
-        <version>1.1</version>
-        <interface>
-            <name>IEsePowerManager</name>
-            <instance>default</instance>
-        </interface>
-        <fqname>@1.1::IEsePowerManager/default</fqname>
     </hal>
     <hal format="hidl">
         <name>vendor.qti.hardware.AGMIPC</name>
@@ -321,16 +283,6 @@
             <instance>dspservice</instance>
         </interface>
         <fqname>@1.0::IDspService/dspservice</fqname>
-    </hal>
-    <hal format="hidl">
-        <name>vendor.qti.hardware.eid</name>
-        <transport>hwbinder</transport>
-        <version>1.0</version>
-        <interface>
-            <name>IEid</name>
-            <instance>default</instance>
-        </interface>
-        <fqname>@1.0::IEid/default</fqname>
     </hal>
     <hal format="hidl">
         <name>vendor.qti.hardware.embmssl</name>

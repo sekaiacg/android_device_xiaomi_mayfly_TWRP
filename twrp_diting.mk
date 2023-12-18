@@ -39,6 +39,9 @@ TW_LOAD_VENDOR_MODULES := "adsp_loader_dlkm.ko fts_touch_spi.ko goodix_core.ko"
 TW_SUPPORT_INPUT_AIDL_HAPTICS := true
 TW_SUPPORT_INPUT_AIDL_HAPTICS_FQNAME := "IVibrator/vibratorfeature"
 
+# Touch
+TW_XIAOMI_TOUCH_RMMOD_GOODIX_CORE := true
+
 # Theme
 TW_STATUS_ICONS_ALIGN := center
 TW_Y_OFFSET := 90
